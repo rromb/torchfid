@@ -4,7 +4,8 @@
 ## Installation
 This code provides an easy way of using the pytorch implementation of the FID-Score calculation (see https://github.com/mseitzer/pytorch-fid)
 in an installable fashion. To do so, just clone this repository with
-```git clone ...
+```
+git clone git@github.com:rromb/torchfid.git
 cd torchfid
 pip install -e .
 ```
