@@ -9,7 +9,7 @@ setup(
     name="torchfid",
     version=__version__,
     description="Installable FID score calculation",
-    url="https://github.com/rromb/tobedone",
+    url="https://github.com/rromb/torchfid",
     author="mseitzer et al",
     author_email="R.Rombach@stud.uni-heidelberg.de",
     license="MIT",
