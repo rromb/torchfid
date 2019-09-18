@@ -18,7 +18,8 @@ setup(
         "tqdm",
         "numpy",
         "scipy",
-        "torch"
+        "torch", 
+        "torchvision"
     ],
     zip_safe=False,
     classifiers=[
