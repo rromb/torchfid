@@ -10,7 +10,7 @@ cd torchfid
 pip install -e .
 ```
 
-The FID score and now easily be calculated as follows:
+The FID score can now easily be calculated as follows:
 
 ```python
 from torchfid import FIDScore
