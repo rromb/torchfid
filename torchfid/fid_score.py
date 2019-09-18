@@ -53,7 +53,11 @@ except ImportError:
     # If not tqdm is not available, provide a mock version of it
     def tqdm(x): return x
 
-from inception import InceptionV3
+try:
+   from inception import InceptionV3
+except ModuleNotFoundError:
+   # If not running as stand-alone code
+   from torchfid.inception import InceptionV3
 
 parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
 parser.add_argument('path', type=str, nargs=2,
